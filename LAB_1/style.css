@@ -1,0 +1,29 @@
+.test{
+	width: 400px;
+	height: 400px;
+	background-color: pink;
+	margin: 40px;
+	padding: 1px; /*Без паддинга в единицу или любого не 'none' бордера с толщиной более нуля марга для внутненнего элемента нормально не работает*/
+}
+.circle{
+	width: 40%;
+	height: 40%;
+	margin: 30%;
+	border-radius: 50%;
+	padding: 1px;
+	background-color: orange;
+}
+.hor{
+	height: 15px;
+	width: 80px;
+	background-color: white;
+	margin-left: 25%;
+	margin-top: 45%;
+}
+.vert{
+	height: 80px;
+	width: 15px;
+	background-color: white;
+	margin-left: 45%;
+	margin-top: -30%;
+}
